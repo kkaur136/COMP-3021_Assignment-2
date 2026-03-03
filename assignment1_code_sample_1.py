@@ -46,7 +46,7 @@ def get_data():
     except Exception as e:
         print("Unexpected error:", e)
 
-    return None
+    return  None
 
 
 def save_to_db(data):
